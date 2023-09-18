@@ -6,7 +6,7 @@ using namespace std;
 
 vector<int> twoSum(vector<int>& nums, int target) {
     
-    vector<int> result;
+    vector<int> output;
     auto iter = nums.begin();
 
     while(iter != nums.end())
@@ -17,13 +17,13 @@ vector<int> twoSum(vector<int>& nums, int target) {
 
         if(it != nums.end())
         {
-            result.push_back(iter - nums.begin());
-            result.push_back(it - nums.begin());
+            output.push_back(iter - nums.begin());
+            output.push_back(it - nums.begin());
         }
             
         ++iter;
     }
     
-    return result;
+    return output;
 
 }
