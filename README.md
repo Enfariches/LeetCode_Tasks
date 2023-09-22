@@ -20,3 +20,6 @@
 - [Counting Bits](https://leetcode.com/problems/counting-bits/)
 - [Missing Number](https://leetcode.com/problems/missing-number/)
 - [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
+
+
+[Author @krishnadey30](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions)
