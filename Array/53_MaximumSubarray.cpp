@@ -28,8 +28,10 @@ int maxSubArray(vector<int> nums) {
             } 
         }
 
-        else
-            ans = nums[i];    
+        else{
+            ans = nums[i]; 
+        }
+               
     }
     return std::max(ans, max);
 }
